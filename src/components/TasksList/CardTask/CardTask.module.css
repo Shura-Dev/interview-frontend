@@ -1,0 +1,51 @@
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.completed {
+  background-color: #d5f3dc;
+}
+
+.cardHeader {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardBody {
+  padding: 10px;
+}
+
+.cardFooter {
+  padding: 10px;
+  text-align: center;
+}
+
+.fontHeader {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fontHeaderCompleted {
+  font-size: 10;
+  font-weight: 500;
+  color: #08c476;
+}
+
+.fontDescription {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px, 0;
+}
+
+.fontStyle {
+  font-size: 14px;
+  font-weight: 400;
+}
